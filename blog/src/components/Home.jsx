@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { HomeContainer } from '../styles/HomeStyles'
+import Twitter from './Twitter'
 import Carousel from 'react-bootstrap/Carousel'
 
 export default class Home extends Component {
   render() {
     return (
       <HomeContainer>
+        <h1>The Wandering Pigs</h1>
         <Carousel>
           <Carousel.Item>
             <img
@@ -39,6 +41,9 @@ export default class Home extends Component {
             <img className='d-block w-50' src='./rhino.jpg' alt='two rhinos' />
           </Carousel.Item>
         </Carousel>
+        <div className='social-div'>
+          <Twitter />
+        </div>
       </HomeContainer>
     )
   }
