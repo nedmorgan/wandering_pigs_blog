@@ -20,6 +20,7 @@ export const FooterContainer = styled.div`
 
   .footer-name {
     color: black;
+    font-family: 'Baloo 2', cursive;
   }
 
   #icon-copyright {
