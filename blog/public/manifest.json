@@ -11,6 +11,31 @@
       "src": "pigs.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "thailand.JGP",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "elephant.JPG",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "myanmar.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "laos.JPG",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "rhino.JPG",
+      "type": "image/jpg",
+      "sizes": "192x192"
     }
   ],
   "start_url": ".",
