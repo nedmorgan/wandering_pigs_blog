@@ -13,4 +13,20 @@ export const AboutContainer = styled.div`
     font-weight: bold;
     font-size: 2em;
   }
+
+  li {
+    background-color: black;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .about-title {
+      font-size: 1.2em;
+    }
+  }
 `

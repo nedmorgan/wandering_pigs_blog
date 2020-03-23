@@ -18,6 +18,13 @@ export default class About extends Component {
           <Carousel.Item>
             <img
               className='d-block w-50'
+              src='./toroko.jpg'
+              alt='selfie in Toroko National Park, Taiwan'
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-50'
               src='./elephant.jpg'
               alt='elephants'
             />
@@ -25,8 +32,22 @@ export default class About extends Component {
           <Carousel.Item>
             <img
               className='d-block w-50'
+              src='./halong.jpg'
+              alt='selfie in Halong Bay'
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-50'
               src='./laos.jpg'
               alt='monk runnings next to temple'
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className='d-block w-50'
+              src='./nepal.jpg'
+              alt='selfie in Nepal valley'
             />
           </Carousel.Item>
           <Carousel.Item>

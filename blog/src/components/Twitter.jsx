@@ -10,7 +10,7 @@ export default class Twitter extends Component {
           <TwitterTimelineEmbed
             sourceType='profile'
             screenName='wandering_pigs'
-            options={{ height: 100 }}
+            options={{ height: 300 }}
           />
           <TwitterFollowButton screenName={'wandering_pigs'} />
         </div>

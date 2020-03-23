@@ -9,6 +9,7 @@ export const HomeContainer = styled.div`
   }
 
   .content-container {
+    width: 100%;
     display: flex;
     justify-content: space-around;
   }
@@ -19,5 +20,21 @@ export const HomeContainer = styled.div`
 
   .social-container {
     width: 25%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 1.5em;
+    }
+    .content-container {
+      width: 90%;
+      justify-content: center;
+    }
+    .posts-container {
+      height: 100%;
+    }
+    .social-container {
+      display: none;
+    }
   }
 `
