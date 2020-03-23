@@ -7,14 +7,17 @@ export const HomeContainer = styled.div`
     font-weight: bold;
     font-size: 3em;
   }
-  img {
-    margin: auto;
-    margin-top: 0.5em;
-    border-radius: 5%;
-  }
 
-  .social-div {
+  .content-container {
     display: flex;
     justify-content: space-around;
+  }
+
+  .posts-container {
+    width: 75%;
+  }
+
+  .social-container {
+    width: 25%;
   }
 `
