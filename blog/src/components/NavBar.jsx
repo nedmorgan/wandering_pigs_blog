@@ -23,7 +23,6 @@ export default class NavBar extends Component {
                 id='basic-nav-dropdown'>
                 <NavDropdown.Item href='/about'>About</NavDropdown.Item>
                 <NavDropdown.Item href='/contact'>Contact</NavDropdown.Item>
-                <NavDropdown.Item href='/posts'>Posts</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

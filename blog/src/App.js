@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './components/NavBar'
 import Home from './components/Home'
 import About from './components/About'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/about' component={About} />
+            <Route path='/contact' component={Contact} />
           </Switch>
         </div>
         <Footer />

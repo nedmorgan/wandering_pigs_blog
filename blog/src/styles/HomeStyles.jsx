@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
     margin-top: 0.5em;
     font-weight: bold;
     font-size: 3em;
+    text-align: center;
   }
 
   .content-container {
